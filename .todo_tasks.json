@@ -1,0 +1,173 @@
+{
+    "next_id": 26,
+    "tasks": [
+        {
+            "id": 2,
+            "description": "Fix Bug",
+            "category": "Work",
+            "is_completed": false,
+            "created_at": "2026-01-01T00:40:50.031689"
+        },
+        {
+            "id": 3,
+            "description": "Buy Eggs",
+            "category": "Personal",
+            "is_completed": false,
+            "created_at": "2026-01-01T00:40:50.329832"
+        },
+        {
+            "id": 4,
+            "description": "Your task description",
+            "category": "Personal",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:01:52.892401"
+        },
+        {
+            "id": 5,
+            "description": "Buy groceries",
+            "category": "Personal",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:31.309852"
+        },
+        {
+            "id": 6,
+            "description": "Clean the room",
+            "category": "Personal",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:31.621820"
+        },
+        {
+            "id": 7,
+            "description": "Call parents",
+            "category": "Personal",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:31.817936"
+        },
+        {
+            "id": 8,
+            "description": "Organize wardrobe",
+            "category": "Personal",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:32.010462"
+        },
+        {
+            "id": 9,
+            "description": "Pay electricity bill",
+            "category": "Personal",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:32.232794"
+        },
+        {
+            "id": 10,
+            "description": "Study Python basics",
+            "category": "Study",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:32.458759"
+        },
+        {
+            "id": 11,
+            "description": "Practice coding exercises",
+            "category": "Study",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:32.703749"
+        },
+        {
+            "id": 12,
+            "description": "Read Clean Code book",
+            "category": "Study",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:32.907076"
+        },
+        {
+            "id": 13,
+            "description": "Watch data structures tutorial",
+            "category": "Study",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:33.125674"
+        },
+        {
+            "id": 14,
+            "description": "Revise math notes",
+            "category": "Study",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:33.310646"
+        },
+        {
+            "id": 15,
+            "description": "Complete project report",
+            "category": "Work",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:33.507568"
+        },
+        {
+            "id": 16,
+            "description": "Prepare presentation slides",
+            "category": "Work",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:33.696012"
+        },
+        {
+            "id": 17,
+            "description": "Send weekly status email",
+            "category": "Work",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:33.878303"
+        },
+        {
+            "id": 18,
+            "description": "Fix reported bugs",
+            "category": "Work",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:34.070722"
+        },
+        {
+            "id": 19,
+            "description": "Review pull requests",
+            "category": "Work",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:34.256000"
+        },
+        {
+            "id": 20,
+            "description": "Morning walk for 30 minutes",
+            "category": "Health",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:34.458430"
+        },
+        {
+            "id": 21,
+            "description": "Drink 2 liters of water",
+            "category": "Health",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:34.641414"
+        },
+        {
+            "id": 22,
+            "description": "Meditate for 10 minutes",
+            "category": "Health",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:34.831329"
+        },
+        {
+            "id": 23,
+            "description": "Stretching exercises",
+            "category": "Health",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:35.028446"
+        },
+        {
+            "id": 24,
+            "description": "Sleep before 11 PM",
+            "category": "Health",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:03:35.226161"
+        },
+        {
+            "id": 25,
+            "description": "Buy milk",
+            "category": "General",
+            "is_completed": false,
+            "created_at": "2026-01-01T01:08:40.710152"
+        }
+    ]
+}
