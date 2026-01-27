@@ -12,6 +12,7 @@ class User(Base, TimestampMixin):
     id = Column(String(36), primary_key=True, default=generate_uuid)
     email = Column(String(255), unique=True, nullable=False, index=True)
     hashed_password = Column(String(255), nullable=False)
+    full_name = Column(String(255), nullable=True)  # <-- Yeh line add karein
     is_active = Column(Boolean, default=True)
     is_superuser = Column(Boolean, default=False)
 

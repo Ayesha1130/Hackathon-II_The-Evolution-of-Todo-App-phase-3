@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from ..api.deps import get_current_user
+from .deps import get_current_user
 from ..models import User
 from ..models.database import get_db
 from ..schemas.auth import Message, Token
@@ -38,7 +38,14 @@ async def signup(
         )
 
     hashed_password = get_password_hash(user_data.password)
-    new_user = User(email=user_data.email, hashed_password=hashed_password)
+    #new_user = User(email=user_data.email, hashed_password=hashed_password)
+
+    new_user = User(
+        email=user_data.email, 
+        hashed_password=hashed_password,
+        full_name=user_data.full_name if hasattr(user_data, 'full_name') else None,
+        is_active=True # Default active rakhein
+    )
 
     db.add(new_user)
     await db.commit()

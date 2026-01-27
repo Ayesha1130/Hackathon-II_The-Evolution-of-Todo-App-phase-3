@@ -14,6 +14,7 @@ class UserCreate(UserBase):
 
     password: str = Field(..., min_length=8, max_length=128)
     confirm_password: str
+    full_name: Optional[str] = None
 
     class Config:
         json_schema_extra = {

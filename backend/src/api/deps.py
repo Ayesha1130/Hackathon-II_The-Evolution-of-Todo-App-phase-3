@@ -4,11 +4,18 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from sqlalchemy.ext.asyncio import AsyncSession
 from jose import JWTError, jwt
 
-from src.config import settings
-from models.database import get_db
-from src.models import User
-from schemas.auth import TokenData
-from utils.security import decode_token
+#from src.config import settings
+#from models.database import get_db
+#from src.models import User
+#from schemas.auth import TokenData
+#from utils.security import decode_token
+
+
+from ..config import settings
+from ..models.database import get_db
+from ..models import User
+from ..schemas.auth import TokenData
+from ..utils.security import decode_token
 
 security = HTTPBearer()
 

@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect, useRef } from 'react'
 import { useQueryClient } from '@tanstack/react-query'
-import { Message, ChatInput, useChatKit } from '@openai/chatkit-react'
-import { api } from '@/lib/api/client'
+//import { Message, ChatInput, useChatKit } from '@openai/chatkit-react'
+//import { api } from '@/lib/api/client'
 import { taskKeys } from '@/hooks/useTasks'
 import { categoryKeys } from '@/hooks/useCategories'
 import { Button } from '@/components/ui/Button'
@@ -43,7 +43,7 @@ export const ChatInterface = ({ onClose }: { onClose: () => void }) => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${localStorage.getItem('token')}`,
+          'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
         },
         body: JSON.stringify({
           content,
